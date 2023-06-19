@@ -1,4 +1,4 @@
-![Vue sticker library](./.github/screenshot.png)
+[![Vue sticker library](./.github/screenshot.png)](https://vue-stickers.netlify.app)
 
 # vue-stickers
 
