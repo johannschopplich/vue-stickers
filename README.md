@@ -39,6 +39,8 @@ import { Sticker } from 'vue-stickers/components'
 
 The sticker Vue component accepts a `type` prop to change the sticker type.
 
+![Vue sticker style preview](./.github/preview.mp4)
+
 #### `type="normal"`
 
 ```html
