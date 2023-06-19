@@ -28,8 +28,8 @@ import { Sticker } from '../src/components'
 <style>
 .polka {
   background-image:
-    radial-gradient(#28292b 0.5px, transparent 0.5px),
-    radial-gradient(#28292b 0.5px, #e57066 0.5px);
+    radial-gradient(#28292b 1px, transparent 1px),
+    radial-gradient(#28292b 1px, #e57066 1px);
   background-size: 16px 16px;
   background-position: 0 0, 8px 8px;
 }
