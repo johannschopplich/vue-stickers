@@ -1,0 +1,8 @@
+[build]
+  publish = "playground/dist"
+  command = "pnpm -C playground run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
