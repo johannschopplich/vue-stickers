@@ -33,12 +33,23 @@ import { Sticker } from 'vue-stickers/components'
 </template>
 ```
 
+### Nuxt Support
+
+Nuxt is supported out of the box, but the `Sticker` Vue component provided by this library needs to be transpiled for the server-side rendering to work. Add the following to your `nuxt.config.ts`:
+
+```ts
+export default defineNuxtConfig({
+  build: {
+    transpile: ['vue-stickers']
+  }
+})
+```
+
 ## Configuration
 
 ### Props
 
 The sticker Vue component accepts a `type` prop to change the sticker type.
-
 
 #### `type="normal"`
 

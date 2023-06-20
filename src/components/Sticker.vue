@@ -30,6 +30,9 @@ const { resume } = useRafFn(
 )
 
 onMounted(() => {
+  // Update ID for Nuxt SSR support
+  filterId.value = `${randomUUID()}-${props.type}`
+
   if (props.type === 'shiny') {
     useEventListener(
       window,
