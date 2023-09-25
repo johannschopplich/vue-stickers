@@ -8,7 +8,7 @@ import { Sticker } from '../src/components'
       <div class="polka flex items-center justify-center leading-[0.75]">
         <Sticker class="-rotate-20">
           <span
-            class="from-sunglo-500 to-[#28292b] from-50% to-50% bg-gradient-to-r bg-clip-text font-styro text-size-[8rem] text-transparent"
+            class="from-sunglo-500 to-[#28292b] from-50% to-50% bg-gradient-to-r bg-clip-text text-size-[8rem] font-styro text-transparent"
             style="--un-gradient-shape: 140deg"
           >
             Stickers
