@@ -3,11 +3,7 @@ import unocss from '@unocss/eslint-config/flat'
 
 export default [
   unocss,
-  ...antfu(
-    {
-      ignores: [
-        'tsconfig.json',
-      ],
-    },
-  ),
+  ...(await antfu({
+    ignores: ['tsconfig.json'],
+  })),
 ]
